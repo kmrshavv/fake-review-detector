@@ -101,3 +101,9 @@ if 'score' in locals():
         st.warning("Moderate confidence")
     else:
         st.error("Low confidence")
+
+st.set_page_config(
+    page_title="Fake Review Detector",
+    page_icon="🧠",   # you can change emoji
+    layout="centered"
+)
